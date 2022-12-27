@@ -5,11 +5,13 @@ export default function Navbar() {
 
   return (
     <div className={styles.navbar}>
-      <p>Julia Sanchez</p>
-      <Link href="/components/home"> Home </Link>
-      <Link href="/components/ilustrations"> Ilustrações </Link>
-      <Link href="/components/about"> Sobre mim </Link>
-      <Link href="/components/contact"> Contato </Link>
+      <div className={styles.logo}>Portfolio</div>
+      <div className={styles['nav-links']}>
+        <Link href="/" className={styles.link}> Home</Link>
+        <Link href="/components/ilustrations" className={styles.link}> Ilustrações </Link>
+        <Link href="/components/about" className={styles.link}> Sobre mim </Link>
+        <Link href="/components/contact" className={styles.link}> Contato </Link>
+      </div>
     </div>
   )
 }

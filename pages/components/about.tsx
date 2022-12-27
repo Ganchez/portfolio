@@ -1,5 +1,10 @@
+import Navbar from "./navbar"
+
 export default function About() {
   return (
-    <p> oie </p>
+    <div>
+      <Navbar></Navbar>
+      <p> oie </p>
+    </div>
   )
 }

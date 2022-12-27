@@ -1,5 +1,38 @@
 .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   padding: 25px;
   box-shadow: 2px 2px 5px #c9c9c9;
-  display: flex;
+
+  .logo {
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+  }
+
+  .logo:hover {
+    transform: scale3d(1.1, 1.1, 1);
+    transition: all 0.5s ease 0s;
+  }
+}
+
+.nav-links {
+  .link {
+    display: inline-block;
+    transition: all 0.5s ease 0s;
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    transition: all 0.3s ease 0s;
+  }
+
+  a:hover{
+    color: rgb(29, 135, 167);
+    transition: all 0.2s ease 0s;
+    transform: scale3d(1.03, 1.03, 1);
+  }
 }

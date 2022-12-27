@@ -1,5 +1,10 @@
+import Navbar from "./navbar"
+
 export default function Ilustrations() {
   return (
-    <p> desenhinhos </p>
+    <div>
+      <Navbar></Navbar>
+      <p> desenhinhos </p>
+    </div>
   )
 }
